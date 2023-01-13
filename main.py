@@ -44,7 +44,7 @@ async def on_message(message):
         newcount = doc["count"]
         delta = timedelta(minutes = 5)
         await message.author.timeout(delta, reason = "No r*zz!!!!!")
-        await message.channel.send(f"Hah, get timed out nerd! ({newcount})")
+        await message.channel.send(f"Hah, get timed out nerd! ||{newcount}||")
         return
 
-client.run("#####################")
+client.run("############################")
