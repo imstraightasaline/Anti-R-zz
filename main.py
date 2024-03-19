@@ -6,7 +6,7 @@ intents.message_content = True
 import pymongo
 from datetime import timedelta
 
-client = pymongo.MongoClient("mongodb+srv://authAdmin:5k3E6mEdjDX8rSwT@tomscluster.wwos8ih.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://authAdmin:abcdefg")
 mainDb = client.antirizz
 
 client = commands.Bot(command_prefix = "ar!", intents = intents, activity = discord.Streaming(name = "No r*zz!!!!!", url = "https://youtu.be/AUJAysi0yHM"))
